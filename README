@@ -1,3 +1,24 @@
+This is my personal DWM build.
+It contains multiple patches of which I cannot entirely recall. 
+I am sure it contains pertag, vanity gaps, system tray, autostartscript and various layouts
+
+Please check the config.h for layouts.
+A few layouts are defined however I only have some binded.
+
+I have built in my own keybinds. You will want to change them for your needs.
+
+The tag icons depend on the fontawesome package. You may install through your package manager if available or use:
+https://github.com/FortAwesome/Font-Awesome
+
+For autostart script, you can create a script in ~/.dwm/autostart,sh
+Example:
+
+#!/bin/sh
+xset s 600 600 &
+xss-lock --transfer-sleep-lock slock &
+picom --experimental-backends &
+dunst &
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
