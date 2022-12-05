@@ -10,7 +10,8 @@ I have built in my own keybinds. You will want to change them for your needs.
 The tag icons depend on the fontawesome package. You may install through your package manager if available or use:
 https://github.com/FortAwesome/Font-Awesome
 
-For autostart script, you can create a script in ~/.dwm/autostart,sh
+For autostart script, you can create a script in ~/.dwm/autostart,sh 
+Don't forget to make it executable.
 Example:
 
 #!/bin/sh
